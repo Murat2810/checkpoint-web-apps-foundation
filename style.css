@@ -1,0 +1,28 @@
+body{
+    background-color: lightsalmon;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    display: flex;
+}
+
+h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-shadow: 0.1rem 0.1rem 0rem black;
+}
+
+input{
+    padding: 0.5rem 1rem;
+    border-style: solid;
+    border-radius: 0.25rem;
+    border-color: black;
+    border
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
