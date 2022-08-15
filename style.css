@@ -4,25 +4,44 @@ body{
 }
 main{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
 }
 
 h1{
     color: white;
     font-family: 'Lobster', cursive;
     text-shadow: 0.1rem 0.1rem 0rem black;
+    text-align: center;
 }
 
 input{
-    padding: 0.5rem 1rem;
     border-style: solid;
-    border-radius: 0.25rem;
+    border-radius: 2px;
     border-color: black;
-    border
+    height: 24px;
+    width: 192px;
 }
 
 button {
     background-color: black;
     color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
+    border-radius: 2px;
+    border-style: solid;
+    height: 30px;
+    width: 200px; 
+}
+
+@media screen and (max-width: 700px){
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
 }

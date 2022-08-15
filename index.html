@@ -11,24 +11,33 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Password Check</h1>
+    <h1>Password Check</h1>
 <main>
     <div>
-        <input minlength="10" class="input" type="password">
-        <input minlength="10" class="input" type="password">
+        <input id="password" minlength="10" class="input" type="password" value="">
+        <br>
+        <input id="repeatPw" minlength="10" class="input" type="password">
+        <br>
         <button id="button">Show Password</button>
     </div>
     <div>
-        <p id="queryEqual">Password are equal<span >❌✅</span></p>
-        <p>Lower Case Letters❌✅</p>
-        <p>Upper Case Letters❌✅</p>
-        <p>Contains Numbers❌✅</p>
-        <p>At least 10 characters long</p>
+        <p >Password are equal
+            <span id="queryEqual" value="">❌</span>
+        </p>
+        <p >Lower Case Letters
+            <span id="checkLower">❌</span>
+        </p>
+        <p >Upper Case Letters
+            <span id="checkUpper">❌</span>
+        </p>
+        <p >Contains Numbers
+            <span id="chckNmbr">❌</span>
+        </p>
+        <p >At least 10 characters long
+            <span id="checkLength">❌</span>
+        </p>
     </div>
 </main>
-
-
-
 
 
  <script src="script.js"></script>   
